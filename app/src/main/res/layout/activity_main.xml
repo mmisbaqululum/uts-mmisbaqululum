@@ -79,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:onClick="handleOk"
+            android:onClick="handleMenu"
             app:srcCompat="@drawable/bonang1" />
     </androidx.cardview.widget.CardView>
 

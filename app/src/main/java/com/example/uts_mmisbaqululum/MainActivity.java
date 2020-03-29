@@ -14,13 +14,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void handleOk(View view) {
-        Intent i = new Intent (this, JenisActivity.class);
-        startActivity(i);
-    }
+
 
     public void handleDefinisi(View view) {
         Intent i = new Intent (this, DefinisiActivity.class);
         startActivity(i);
     }
+
+    public void handleMenu(View view) {
+        Intent i = new Intent (this, MenuActivity.class);
+        startActivity(i);
+    }
+
 }

@@ -46,7 +46,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Karawitan adalah seni gamelan\n dan seni suara yang bertangga\n nada slendro dan pelog.\n Kesenian ini terkenal di Pulau Jawa\n dan Bali.\n Istilah karawitan berasal\n dari kata "
+        android:text=" Karawitan adalah seni gamelan\n dan seni suara yang bertangga\n nada slendro dan pelog.\n Kesenian ini terkenal di Pulau Jawa\n dan Bali.\n Istilah karawitan berasal\n dari kata "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
