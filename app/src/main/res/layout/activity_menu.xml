@@ -11,13 +11,12 @@
     tools:context=".MenuActivity">
 
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="355dp" />
+        app:layout_constraintGuide_begin="485dp" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardViewMenu"
@@ -29,6 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.885"
+        android:layout_marginRight="20dp"
         android:onClick="handleSubmit">
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="16dp"
             android:textSize="28dp"
-            android:text="Daftar Gamelan"
+            android:text="Profil Gamelan"
             android:fontFamily="sans-serif-condensed-medium"/>
     </androidx.cardview.widget.CardView>
 
@@ -51,7 +51,9 @@
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885" >
+        app:layout_constraintVertical_bias="0.885"
+        android:layout_marginRight="20dp"
+        android:onClick="handleDaftar">
 
         <TextView
             android:id="@+id/profilGamelan"
@@ -60,21 +62,23 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="16dp"
             android:textSize="28dp"
-            android:text="Profil Gamelan"
+            android:text="Daftar Gamelan"
             android:fontFamily="sans-serif-condensed-medium"/>
 
     </androidx.cardview.widget.CardView>
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardViewMenu3"
         android:layout_width="150dp"
         android:layout_height="100dp"
+        android:layout_marginRight="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:layout_constraintVertical_bias="0.132"
+        app:layout_constraintVertical_bias="0.22">
         >
 
         <TextView
@@ -83,23 +87,23 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="33dp"
-            android:textSize="28dp"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="Exit"
-            android:fontFamily="sans-serif-condensed-medium"/>
+            android:textSize="28dp" />
     </androidx.cardview.widget.CardView>
-
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardViewMenu4"
         android:layout_width="150dp"
         android:layout_height="100dp"
+        android:layout_marginRight="20dp"
+        android:onClick="handleGaleri"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:layout_constraintVertical_bias="0.132"
-        android:onClick="handleGaleri">
+        app:layout_constraintVertical_bias="0.22">
 
         <TextView
             android:id="@+id/galeri"
@@ -107,9 +111,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="37dp"
             android:layout_marginTop="33dp"
-            android:textSize="28dp"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="Galeri"
-            android:fontFamily="sans-serif-condensed-medium"/>
+            android:textSize="28dp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.constraintlayout.widget.Guideline
@@ -118,5 +122,20 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="205dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mainpage" />
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,6 +15,7 @@
         <activity android:name=".MenuActivity"/>
         <activity android:name=".DefinisiActivity"/>
         <activity android:name=".GaleriActivity"/>
+        <activity android:name=".DaftarActivity"/>
         <activity android:name=".MainActivity">
 
             <intent-filter>
