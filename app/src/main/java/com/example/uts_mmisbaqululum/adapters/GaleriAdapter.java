@@ -1,6 +1,5 @@
 package com.example.uts_mmisbaqululum.adapters;
 
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,12 +16,12 @@ import com.example.uts_mmisbaqululum.models.Karawitan;
 
 import java.util.List;
 
-public class JenisAdapter extends RecyclerView.Adapter<JenisAdapter.ViewHolder> {
+public class GaleriAdapter extends RecyclerView.Adapter<GaleriAdapter.ViewHolder>{
 
     private Context context;
     private List<Karawitan> items;
 
-    public JenisAdapter(Context context, List<Karawitan> items) {
+    public GaleriAdapter(Context context, List<Karawitan> items) {
         this.context = context;
         this.items = items;
     }
@@ -30,15 +29,13 @@ public class JenisAdapter extends RecyclerView.Adapter<JenisAdapter.ViewHolder> 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context)
-                .inflate(R.layout.item_jenis, parent, false);
-        return new ViewHolder(view);
+        View view = LayoutInflater.from(context).inflate(R.layout.item_galeri, parent, false);
+        return new GaleriAdapter.ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Karawitan item = items.get(position);
-        // Atur image di baris ini, dapat menggunakan Picasso atau Glide
         holder.nameText.setText(item.getName());
         Glide.with(context).load(item.getImage()).into(holder.logoImage);
     }
@@ -53,13 +50,13 @@ public class JenisAdapter extends RecyclerView.Adapter<JenisAdapter.ViewHolder> 
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        ImageView logoImage;
-        TextView nameText;
+        public ImageView logoImage;
+        public TextView nameText;
 
-        public ViewHolder(@NonNull View itemJenis) {
-            super(itemJenis);
-            logoImage = itemJenis.findViewById(R.id.image_logo_jenis);
-            nameText = itemJenis.findViewById(R.id.text_name_jenis);
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+            logoImage = itemView.findViewById(R.id.image_logo_galeri);
+            nameText = itemView.findViewById(R.id.text_name_galeri);
         }
     }
 }

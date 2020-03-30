@@ -25,8 +25,16 @@ public class JenisActivity extends AppCompatActivity {
         RecyclerView teamsView = findViewById(R.id.rv_teams);
 
         List<Karawitan> teams = new ArrayList<>();
-        teams.add(new Karawitan("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dictio.id%2Ft%2Fbagaimana-cara-memainkan-alat-musik-tradisional-demung%2F61932&psig=AOvVaw2FzrzLqgzMH73lKnpkvZU2&ust=1585365825607000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMj5_InauegCFQAAAAAdAAAAABAH", "Demung"));
-        teams.add(new Karawitan("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.romadecade.org%2Falat-musik-jawa-tengah%2F&psig=AOvVaw29eJ7UvW42ynXV453AUJKm&ust=1585366789669000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjg29XduegCFQAAAAAdAAAAABAD", "Bonang"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/4e/Btdemung.jpg", "Demung"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/42/Bonang_barung_and_panerus._STSI_Surakarta.jpg", "Bonang"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/4e/Btdemung.jpg", "Peking"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/42/Bonang_barung_and_panerus._STSI_Surakarta.jpg", "Gong"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/4e/Btdemung.jpg", "Kendang"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/42/Bonang_barung_and_panerus._STSI_Surakarta.jpg", "Rebab"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/4e/Btdemung.jpg", "Slentem"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/42/Bonang_barung_and_panerus._STSI_Surakarta.jpg", "Kenong"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/4e/Btdemung.jpg", "Saron"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/42/Bonang_barung_and_panerus._STSI_Surakarta.jpg", "Gambang"));
 
         JenisAdapter adapter = new JenisAdapter(this, teams);
         teamsView.setAdapter(adapter);
