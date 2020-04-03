@@ -41,6 +41,8 @@ public class JenisAdapter extends RecyclerView.Adapter<JenisAdapter.ViewHolder> 
         // Atur image di baris ini, dapat menggunakan Picasso atau Glide
         holder.nameText.setText(item.getName());
         Glide.with(context).load(item.getImage()).into(holder.logoImage);
+
+        holder
     }
 
     @Override
