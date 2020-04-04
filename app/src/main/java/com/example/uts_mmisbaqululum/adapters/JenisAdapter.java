@@ -2,6 +2,7 @@ package com.example.uts_mmisbaqululum.adapters;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,12 +38,22 @@ public class JenisAdapter extends RecyclerView.Adapter<JenisAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Karawitan item = items.get(position);
+        final Karawitan item = items.get(position);
         // Atur image di baris ini, dapat menggunakan Picasso atau Glide
         holder.nameText.setText(item.getName());
         Glide.with(context).load(item.getImage()).into(holder.logoImage);
 
-        holder
+        holder.parent_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, JenisDetailActivity.class);
+                intent.putExtra("image_url", item.getImage());
+                intent.putExtra("image_name", item.getName());
+                intent.putExtra("image_desc", item.getDescription());
+                context.startActivity(intent);
+            }
+        });
+        Glide.with(context).load(item.getImage()).into(holder.imgImage);
     }
 
     @Override

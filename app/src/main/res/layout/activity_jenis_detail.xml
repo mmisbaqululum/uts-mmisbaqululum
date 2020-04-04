@@ -6,22 +6,34 @@
     android:weightSum="100">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="70"
         android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
         android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@mipmap/ic_launcher" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/image_description"
+        android:id="@+id/titleText"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:text="DETAIL PAGE"
         android:textSize="20sp"
         android:textColor="#000"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDesc"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Desc"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+
 
 </LinearLayout>
