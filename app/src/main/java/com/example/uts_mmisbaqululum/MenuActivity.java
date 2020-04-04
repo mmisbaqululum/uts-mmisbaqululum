@@ -43,4 +43,8 @@ public class MenuActivity extends AppCompatActivity {
         Intent i = new Intent (this, DaftarActivity.class);
         startActivity(i);
     }
+
+    public void handleExit(View view) {
+        finish();
+    }
 }
