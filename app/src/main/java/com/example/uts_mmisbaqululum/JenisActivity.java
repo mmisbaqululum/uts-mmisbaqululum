@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.uts_mmisbaqululum.adapters.JenisAdapter;
+import com.example.uts_mmisbaqululum.adapters.JenisDetailAdapter;
 import com.example.uts_mmisbaqululum.models.Karawitan;
 
 import java.util.ArrayList;
@@ -36,7 +37,7 @@ public class JenisActivity extends AppCompatActivity {
         teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/3/32/Traditional_indonesian_instruments.jpg", "Saron", "des"));
         teams.add(new Karawitan("https://metrobali.com/wp-content/uploads/2014/06/gambang.jpg", "Gambang", "des"));
 
-        JenisAdapter adapter = new JenisAdapter(this, teams);
+        JenisDetailAdapter adapter = new JenisDetailAdapter(this, teams);
         teamsView.setAdapter(adapter);
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);

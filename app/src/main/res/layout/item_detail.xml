@@ -7,6 +7,7 @@
     android:layout_height="200dp"
     android:layout_margin="8dp"
     app:cardElevation="4dp"
+    android:id="@+id/parent_layout">
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -16,7 +17,7 @@
         >
 
         <ImageView
-            android:id="@+id/image_logo_galeri"
+            android:id="@+id/image_logo_detail"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -27,12 +28,10 @@
             />
 
         <TextView
-            android:id="@+id/text_name_galeri"
+            android:id="@+id/text_name_detail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-
             android:text="TextView"
-
             android:textSize="24sp"
             android:textStyle="bold"
             android:background="#90FFFFFF"
