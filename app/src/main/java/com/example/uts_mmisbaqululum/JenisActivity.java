@@ -26,7 +26,20 @@ public class JenisActivity extends AppCompatActivity {
         RecyclerView teamsView = findViewById(R.id.rv_teams);
 
         List<Karawitan> teams = new ArrayList<>();
-        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/4e/Btdemung.jpg", "Demung", "Demung adalah alat musik"));
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/4e/Btdemung.jpg", "Demung", "Demung adalah salah satu instrumen gamelan yang termasuk keluarga balungan.\n" +
+                "\n" +
+                "Dalam satu set gamelan biasanya terdapat 2 demung, keduanya memiliki versi pelog dan slendro. " +
+                "\n Demung menghasilkan nada dengan oktaf terendah dalam keluarga balungan, " +
+                "\ndengan ukuran fisik yang lebih besar. Demung memiliki wilahan yang relatif lebih tipis namun lebih lebar " +
+                "\ndaripada wilahan saron, sehingga nada yang dihasilkannya lebih rendah. Tabuh demung biasanya terbuat dari kayu, " +
+                "\ndengan bentuk seperti palu, lebih besar dan lebih berat daripada tabuh saron.\n" +
+                "\n" +
+                "Cara menabuhnya ada yang biasa sesuai nada, nada yang imbal, atau menabuh bergantian antara demung " +
+                "\n1 dan demung 2, menghasilkan jalinan nada yang bervariasi namun mengikuti pola tertentu. " +
+                "\nCepat lambatnya dan keras lemahnya penabuhan tergantung pada komando dari kendang dan jenis gendhingnya. " +
+                "\nPada gendhing Gangsaran yang menggambarkan kondisi peperangan misalnya, demung ditabuh dengan keras dan cepat. " +
+                "\nPada gendhing Gati yang bernuansa militer, demung ditabuh lambat namun keras. Ketika mengiringi lagu ditabuh " +
+                "\npelan. Ketika sedang dalam kondisi imbal, maka ditabuh cepat dan keras."));
         teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/42/Bonang_barung_and_panerus._STSI_Surakarta.jpg", "Bonang", "des"));
         teams.add(new Karawitan("https://i.ytimg.com/vi/hs0Hq_sFVAs/hqdefault.jpg", "Peking", "Des"));
         teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/7/7e/Traditional_indonesian_instruments04.jpg", "Gong", "des"));

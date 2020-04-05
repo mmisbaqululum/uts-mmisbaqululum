@@ -1,40 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="100">
     tools:context=".JenisActivity">
 
-    <ImageView
-        android:id="@+id/image"
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/titleText"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
-        android:text="DETAIL PAGE"
-        android:textSize="20sp"
-        android:textColor="#000"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textDesc"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
-        android:text="Desc"
-        android:textSize="20sp"
-        android:textColor="#000"
-        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_conversion_absoluteHeight="275dp"
+                tools:layout_editor_absoluteY="20dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_conversion_absoluteWidth="426dp">
 
-</LinearLayout>
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="275dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_launcher"
+                    tools:layout_conversion_absoluteHeight="275dp"
+                    tools:layout_conversion_absoluteWidth="426dp"
+                    tools:layout_editor_absoluteX="20dp"
+                    tools:layout_editor_absoluteY="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="DETAIL PAGE"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20sp"
+                tools:layout_conversion_absoluteHeight="27dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="315dp" />
+
+            <TextView
+                android:id="@+id/textDesc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Desc"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                tools:layout_conversion_absoluteHeight="27dp"
+                tools:layout_conversion_absoluteWidth="45dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="363dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
