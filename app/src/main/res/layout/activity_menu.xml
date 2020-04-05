@@ -78,7 +78,7 @@
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        android:onClick="handleExit"
+        android:onClick="handleAbout"
         app:layout_constraintVertical_bias="0.22">
         >
 
@@ -86,10 +86,10 @@
             android:id="@+id/exit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="33dp"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="Exit"
+            android:text="About Me"
             android:textSize="28dp" />
     </androidx.cardview.widget.CardView>
 

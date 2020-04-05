@@ -38,21 +38,16 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What is Culture of Indonesian?"
-            android:layout_marginTop="160dp"
-            android:textColor="#FFFFFF"
-            android:textSize="24dp"/>
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Karawitan"
             android:layout_marginTop="190dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="Definisi Karawitan Secara Umum"
+            android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="24dp"/>
+            android:textSize="24dp" />
+
 
     </androidx.cardview.widget.CardView>
 
@@ -81,6 +76,18 @@
             android:layout_marginTop="10dp"
             android:onClick="handleMenu"
             app:srcCompat="@drawable/bonang1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="Mengenal Jenis Alat Musik KARAWITAN"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
