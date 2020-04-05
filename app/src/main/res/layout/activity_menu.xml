@@ -28,18 +28,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.885"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="40dp"
         android:onClick="handleSubmit">
 
         <TextView
             android:id="@+id/daftarGamelan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+
             android:layout_marginTop="16dp"
             android:textSize="28dp"
             android:text="Profil Gamelan"
-            android:fontFamily="sans-serif-condensed-medium"/>
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -52,18 +54,19 @@
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.885"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="40dp"
         android:onClick="handleDaftar">
 
         <TextView
             android:id="@+id/profilGamelan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:layout_marginTop="16dp"
             android:textSize="28dp"
             android:text="Daftar Gamelan"
-            android:fontFamily="sans-serif-condensed-medium"/>
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal" />
 
     </androidx.cardview.widget.CardView>
 
@@ -72,7 +75,7 @@
         android:id="@+id/cardViewMenu3"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
@@ -80,16 +83,17 @@
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         android:onClick="handleAbout"
         app:layout_constraintVertical_bias="0.22">
-        >
+
 
         <TextView
             android:id="@+id/exit"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
             android:layout_marginTop="33dp"
-            android:fontFamily="sans-serif-condensed-medium"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
             android:text="About Me"
+            android:textAlignment="center"
             android:textSize="28dp" />
     </androidx.cardview.widget.CardView>
 
@@ -97,7 +101,7 @@
         android:id="@+id/cardViewMenu4"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="40dp"
         android:onClick="handleGaleri"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
@@ -108,12 +112,13 @@
 
         <TextView
             android:id="@+id/galeri"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
             android:layout_marginTop="33dp"
-            android:fontFamily="sans-serif-condensed-medium"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
             android:text="Galeri"
+            android:textAlignment="center"
             android:textSize="28dp" />
     </androidx.cardview.widget.CardView>
 

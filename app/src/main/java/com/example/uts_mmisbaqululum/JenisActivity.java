@@ -29,7 +29,8 @@ public class JenisActivity extends AppCompatActivity {
         teams.add(new Karawitan("https://cdn.statically.io/img/i2.wp.com/generasihijau.com/wp-content/uploads/2018/10/ricikan-demung-karawitan-jawa-alat-musik-tradisional-jawa-tengah-e1538636986176.png?resize=680%2C439&ssl=1", "Demung", "Demung adalah salah satu instrumen gamelan yang termasuk keluarga balungan.\n" +
                 "\n" +
                 "Dalam satu set gamelan biasanya terdapat 2 demung, keduanya memiliki versi pelog dan slendro. " +
-                "\n Demung menghasilkan nada dengan oktaf terendah dalam keluarga balungan, " +
+                "\n" +
+                "\nDemung menghasilkan nada dengan oktaf terendah dalam keluarga balungan, " +
                 "\ndengan ukuran fisik yang lebih besar. Demung memiliki wilahan yang relatif lebih tipis namun lebih lebar " +
                 "\ndaripada wilahan saron, sehingga nada yang dihasilkannya lebih rendah. Tabuh demung biasanya terbuat dari kayu, " +
                 "\ndengan bentuk seperti palu, lebih besar dan lebih berat daripada tabuh saron.\n" +
@@ -37,34 +38,37 @@ public class JenisActivity extends AppCompatActivity {
                 "Cara menabuhnya ada yang biasa sesuai nada, nada yang imbal, atau menabuh bergantian antara demung " +
                 "\n1 dan demung 2, menghasilkan jalinan nada yang bervariasi namun mengikuti pola tertentu. " +
                 "\nCepat lambatnya dan keras lemahnya penabuhan tergantung pada komando dari kendang dan jenis gendhingnya. " +
+                "\n" +
                 "\nPada gendhing Gangsaran yang menggambarkan kondisi peperangan misalnya, demung ditabuh dengan keras dan cepat. " +
+                "\n" +
                 "\nPada gendhing Gati yang bernuansa militer, demung ditabuh lambat namun keras. Ketika mengiringi lagu ditabuh " +
                 "\npelan. Ketika sedang dalam kondisi imbal, maka ditabuh cepat dan keras."));
         teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/4/42/Bonang_barung_and_panerus._STSI_Surakarta.jpg", "Bonang", "Bonang adalah alat musik Indonesia yang digunakan dalam gamelan Jawa. " +
                 "\nIni adalah kumpulan gong-gong kecil (kadang-kadang disebut \"ceret\" atau \"pot\") " +
                 "\nyang diletakkan secara horizontal ke dawai dalam bingkai kayu (rancak), lebar satu atau dua baris. " +
+                "\n" +
                 "\nSemua ceret memiliki bos pusat, tetapi di sekitarnya ketel yang lebih rendah memiliki kepala yang rata, " +
                 "\nsedangkan yang lebih tinggi memiliki yang melengkung. Masing-masing disetel ke nada tertentu " +
                 "\ndalam skala yang sesuai; jadi ada bonang berbeda untuk pelog dan slendro. Mereka biasanya dipukul " +
                 "\ndengan tongkat (tabuh). Ini mirip dengan gong pelukan lainnya dalam gamelan, kethuk, kempyang, dan kenong. " +
+                "\n" +
                 "\nBonang dapat dibuat dari perunggu tempa, besi tempa dan palu dingin, atau kombinasi logam. " +
                 "\nSelain bentuk ketong berbentuk gong, bonang ekonomis yang terbuat dari besi tempa atau lempengan " +
                 "\nkuningan dengan atasan sering ditemukan di gamelan desa, gamelan gaya Suriname, " +
                 "\ndan di beberapa gamelan Amerika."));
-        teams.add(new Karawitan("https://i.ytimg.com/vi/hs0Hq_sFVAs/hqdefault.jpg", "Peking", "peking yaitu termasuk dalam jenis kelompok ricikan balungan berlaras slendro dan pelog. Bentuk instrumen saron penerus " +
-                "\ntermasuk dalam instrumen bilah dari segi ukuran lebih kecil dibanding saron barung, bilah maupun rancakan. "));
+        teams.add(new Karawitan("https://i.ytimg.com/vi/hs0Hq_sFVAs/hqdefault.jpg", "Peking", "Peking yaitu termasuk dalam jenis kelompok ricikan balungan berlaras slendro dan pelog. Bentuk instrumen saron penerus termasuk dalam instrumen bilah dari segi ukuran lebih kecil dibanding saron barung, bilah maupun rancakan. "));
         teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/7/7e/Traditional_indonesian_instruments04.jpg", "Gong", "Gong merupakan sebuah alat musik pukul yang terkenal di Asia Tenggara " +
                 "\ndan Asia Timur. Gong ini digunakan untuk alat musik tradisional. " +
                 "\nSaat ini tidak banyak lagi perajin gong seperti ini.\n" +
                 "\n" +
                 "Gong yang telah ditempa belum dapat ditentukan nadanya. Nada gong baru terbentuk setelah dibilas dan dibersihkan. " +
                 "\nApabila nadanya masih belum sesuai, gong dikerok sehingga lapisan perunggunya menjadi lebih tipis."));
-        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/8/88/Traditional_indonesian_drums.jpg", "Kendang", "Kendang atau kendhang adalah instrumen dalam gamelan Jawa Tengah dan " +
-                "\nJawa Barat yang salah satu fungsi utamanya mengatur irama. " +
-                "\nInstrument ini dibunyikan dengan tangan, tanpa alat bantu. Jenis kendang yang kecil disebut ketipung, " +
+        teams.add(new Karawitan("https://upload.wikimedia.org/wikipedia/commons/8/88/Traditional_indonesian_drums.jpg", "Kendang", "Kendang atau kendhang adalah instrumen dalam gamelan Jawa Tengah dan Jawa Barat yang salah satu fungsi utamanya mengatur irama. " +
+                "\nInstrument ini dibunyikan dengan tangan, tanpa alat bantu. " +
+                "\n" +
+                "\nJenis kendang yang kecil disebut ketipung, " +
                 "\nyang menengah disebut kendang ciblon/kebar. Pasangan ketipung ada satu lagi bernama kendang gedhe biasa " +
-                "\ndisebut kendang kalih. Kendang kalih dimainkan pada lagu atau gendhing yang berkarakter halus seperti ketawang, " +
-                "\ngendhing kethuk kalih, dan ladrang irama dadi. Bisa juga dimainkan cepat pada pembukaan lagu jenis lancaran, " +
+                "\ndisebut kendang kalih. Kendang kalih dimainkan pada lagu atau gendhing yang berkarakter halus seperti ketawang, gendhing kethuk kalih, dan ladrang irama dadi. Bisa juga dimainkan cepat pada pembukaan lagu jenis lancaran, " +
                 "\nladrang irama tanggung. Untuk wayangan ada satu lagi kendhang yang khas yaitu kendhang kosek.\n" +
                 "\n" +
                 "Kendang kebanyakan dimainkan oleh para pemain gamelan profesional, yang sudah lama menyelami budaya Jawa. " +
@@ -91,24 +95,26 @@ public class JenisActivity extends AppCompatActivity {
                 "\nIberia. Namun, ada bukti adanya alat musik ini pada abad ke-9 juga di Eropa Timur: ahli geografi Persia " +
                 "\nabad ke-9 Ibnu Khurradadhbih mengutip lira Bizantium (atau lūrā) sebagai alat musik busur khas Bizantium dan " +
                 "\nsetara dengan rabāb Arab.[2]"));
-        teams.add(new Karawitan("https://www.dictio.id/uploads/db3342/original/3X/3/8/385ac38d94b23465352d4a736b0f994158954d48.jpg", "Slentem", "Slenthem merupakan salah satu instrumen gamelan yang terdiri " +
-                "\ndari lembaran lebar logam tipis yang diuntai dengan tali dan direntangkan di atas tabung-tabung " +
+        teams.add(new Karawitan("https://www.dictio.id/uploads/db3342/original/3X/3/8/385ac38d94b23465352d4a736b0f994158954d48.jpg", "Slentem", "Slenthem merupakan salah satu instrumen gamelan yang terdiri dari lembaran lebar logam tipis yang diuntai dengan tali dan direntangkan di atas tabung-tabung " +
                 "\ndan menghasilkan dengungan rendah atau gema yang mengikuti nada saron, ricik, dan balungan bila ditabuh. " +
+                "\n" +
                 "\nBeberapa kalangan menamakannya sebagai gender penembung. Seperti halnya pada instrumen lain dalam satu " +
                 "\nset gamelan, slenthem tentunya memiliki versi slendro dan versi pelog. " +
                 "\nWilahan Slenthem Pelog umumnya memiliki rentang nada C hingga B, sedangkan " +
                 "\nslenthem slendro memiliki rentang nada C, D, E, G, A, C'."));
         teams.add(new Karawitan("https://ak9.picdn.net/shutterstock/videos/16956919/thumb/1.jpg", "Kenong", "Kenong merupakan salah satu alat musik yang menyusun gamelan Jawa. " +
                 "\nKenong biasanya dimainkan dengan dipukul oleh satu alat pemukul. " +
+                "\n" +
                 "\nAlat ini merupakan pengisi akor atau harmoni dalam permainkan gamelan, " +
                 "\nkenong berfungsi sebagai penentu batas-batas gatra, menegaskan irama. " +
                 "\nKenong juga termasuk dalam alat musik berpencu, tetapi ukuran lebih besar daripada bonang. " +
+                "\n" +
                 "\nAlat ini juga dipukul menggunakan alat pemukul kayu yang dililitkan kain. " +
                 "\nJumlah dalam satu set bervariasi tetapi biasanya sekitar 10 buah. " +
                 "\nKenong merupakan unsur instrumen pencon gamelan yang paling gemuk, " +
                 "\ndibandingkan dengan kempul dan gong yang walaupun besar namun berbentuk pipih. " +
-                "\nKenong ini disusun pada pangkon berupa kayu keras yang dialasi dengan tali, " +
-                "\nsehingga pada saat dipukul kenong tidak akan bergoyang ke samping namun dapat bergoyang ke atas bawah, " +
+                "\n" +
+                "\nKenong ini disusun pada pangkon berupa kayu keras yang dialasi dengan tali, sehingga pada saat dipukul kenong tidak akan bergoyang ke samping namun dapat bergoyang ke atas bawah, " +
                 "\nsehingga menghasilkan suara. Bentuk kenong yang besar menghasilkan suara yang rendah namun " +
                 "\nnyaring dengan timber yang khas (dalam telinga masyarakat Jawa ditangkap berbunyi ning-nong, " +
                 "\nsehingga dinamakan kenong). Dalam gamelan, suara kenong mengisi sela-sela antara kempul."));
@@ -131,13 +137,15 @@ public class JenisActivity extends AppCompatActivity {
                 "\nTeknik ini disebut memathet (kata dasar: pathet = pencet)"));
         teams.add(new Karawitan("https://metrobali.com/wp-content/uploads/2014/06/gambang.jpg", "Gambang", "Gambang kayu merupakan alat musik tradisional yang terdiri dari " +
                 "\nsebuah palung.[1] Bahan dasar alat musik ini adalah kayu.[1] " +
+                "\n" +
                 "\nPalung yang menjadi tempat kayu itu disusun disebut grobokan.[1] Jumlah bilah kayu yang disusun " +
                 "\nmelintang di atas grobokan ada 16 sampai 21 buah.[1] Kayu yang digunakan sebagai bahan dasar adalah kayu jati.[1] " +
+                "\n" +
                 "\nNamun, ada pula yang menggunakan kayu rawan, kayu naangka, kayu sembir atau slanking untuk bahan dasar.[1] " +
                 "\nBilah-bilah gambang ini disusun dengan alas jalinan rotan atau kain.[1] " +
                 "\nTujuannya supaya suara yang dihasilkan jernih. Selain kayu, bahan yang digunakan untuk " +
-                "\nmembuat bilah-bilah susun adalah bambu.[1] Menurut para pemain gamelan, gambang yang menghasilkan suara " +
-                "\npaling jernih adalah gambang yang terbuat dari kayu rawan.[1] Akan tetapi, di Jawa jarang ditemui kayu rawan.[1] " +
+                "\nmembuat bilah-bilah susun adalah bambu.[1] Menurut para pemain gamelan, gambang yang menghasilkan suara paling jernih adalah gambang yang terbuat dari kayu rawan.[1] Akan tetapi, di Jawa jarang ditemui kayu rawan.[1] " +
+                "\n" +
                 "\nMaka, untuk mendapatkan kayu rawan para pengrajin mendatangkannya dari Kalimantan.[1] " +
                 "\nKayu rawan disebut juga kayu merawan.[2] Kayu ini dikenal awet dan tidak mudah lapuk.[2]"));
 

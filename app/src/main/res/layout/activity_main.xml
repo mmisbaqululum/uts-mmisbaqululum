@@ -40,7 +40,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="190dp"
+            android:layout_marginTop="160dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
             android:text="Definisi Karawitan Secara Umum"
