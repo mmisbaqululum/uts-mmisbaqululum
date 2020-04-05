@@ -44,16 +44,16 @@ public class JenisAdapter extends RecyclerView.Adapter<JenisAdapter.ViewHolder> 
         final Karawitan item = items.get(position);
         // Atur image di baris ini, dapat menggunakan Picasso atau Glide
         holder.nameText.setText(item.getName());
-//        holder.parent_layout.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(context, JenisDetailActivity.class);
-//                intent.putExtra("image_url", item.getImage());
-//                intent.putExtra("image_name", item.getName());
-//                intent.putExtra("image_desc", item.getDeskripsi());
-//                context.startActivity(intent);
-//            }
-//        });
+        holder.parent_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, JenisDetailActivity.class);
+                intent.putExtra("image_url", item.getImage());
+                intent.putExtra("image_name", item.getName());
+                intent.putExtra("image_desc", item.getDeskripsi());
+                context.startActivity(intent);
+            }
+        });
         Glide.with(context).load(item.getImage()).into(holder.logoImage);
     }
 
@@ -69,12 +69,14 @@ public class JenisAdapter extends RecyclerView.Adapter<JenisAdapter.ViewHolder> 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView logoImage;
         TextView nameText;
+        CardView parent_layout;
 
 
         public ViewHolder(@NonNull View itemJenis) {
             super(itemJenis);
             logoImage = itemJenis.findViewById(R.id.image_logo_jenis);
             nameText = itemJenis.findViewById(R.id.text_name_jenis);
+            parent_layout = itemView.findViewById(R.id.parent_layout);
 
         }
     }
