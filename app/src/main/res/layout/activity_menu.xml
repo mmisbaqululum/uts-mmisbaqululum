@@ -35,7 +35,6 @@
             android:id="@+id/daftarGamelan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_marginTop="16dp"
             android:textSize="28dp"
             android:text="Profil Gamelan"

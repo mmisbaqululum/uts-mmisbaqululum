@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Karawitan"
+        android:text="Definisi Karawitan"
         android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,17 +46,15 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Karawitan adalah seni gamelan\n dan seni suara yang bertangga\n nada slendro dan pelog.\n Kesenian ini terkenal di Pulau Jawa\n dan Bali.\n Istilah karawitan berasal\n dari kata "
+        android:text="Karawitan adalah seni gamelan\ndan seni suara yang bertangga\nnada slendro dan pelog.\nKesenian ini terkenal di Pulau Jawa dan \nBali. \n
+        \nIstilah karawitan berasal\ndari kata yang berarti halus dan lembut.\nJadi karawitan berarti kelembutan\nperasaan yang terkandung\ndalam seni gamelan\n"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.11" />" yang\n berarti halus dan lembut.\n Jadi karawitan berarti kelembutan\n perasaan yang terkandung\n dalam seni gamelan\n"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.093" />
+        app:layout_constraintVertical_bias="0.11" />
+
 
 
 

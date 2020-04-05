@@ -12,7 +12,8 @@
         android:id="@+id/text_name_daftar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        tools:text="Club Name"
-        />
+        android:textSize="28sp"
+        android:textAlignment="center"
+        tools:text="Karawitan"
+        android:gravity="center_horizontal" />
 </LinearLayout>
